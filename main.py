@@ -10,7 +10,7 @@ random_selection = {}
 try:
     data = pd.read_csv('data/items_to_learn.csv')
 except FileNotFoundError:
-    original_data = pd.read_csv('data/french_words_test.csv')
+    original_data = pd.read_csv('data/french_words.csv')
     to_learn = original_data.to_dict(orient='records')
 else:
     to_learn = data.to_dict(orient='records')
