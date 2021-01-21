@@ -1,5 +1,7 @@
 **Flashy App**
 
+A #100DaysofCode project
+
 This app takes a .csv file as input and creates random flash cards from the data. It will display an item to be reviewed
 for 3 seconds, and then flip the flash card to show the definition.
 
